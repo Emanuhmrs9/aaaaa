@@ -1,0 +1,14 @@
+{
+  "name": "shopee-oportunidades",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Painel local para descoberta e análise de oportunidades da Shopee Affiliate Open API.",
+  "scripts": {
+    "start": "node backend/server.js",
+    "check": "node --check backend/server.js && node --check backend/shopee.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
